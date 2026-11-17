@@ -1,4 +1,3 @@
-
 name: nutrilens
 description: NUTRILENS - See Beyond the Label.
 publish_to: 'none'
@@ -11,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  mobile_scanner: ^7.0.1
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
 
 dev_dependencies:
   flutter_test:
@@ -19,4 +21,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
